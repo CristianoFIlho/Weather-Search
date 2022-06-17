@@ -4,7 +4,7 @@
 
 https://deploy-test-weather.vercel.app/
 
-![Weather](https://user-images.githubusercontent.com/54041918/174351556-98a3cd02-fca1-4add-9f1c-3f9ced995d55.gif)
+![https://deploy-test-weather.vercel.app/](https://user-images.githubusercontent.com/54041918/174351556-98a3cd02-fca1-4add-9f1c-3f9ced995d55.gif)
 
 #### - Weather Search is an app made with <a href="https://reactjs.org/">React</a> to look up weather information in places around the world.<br>
 
