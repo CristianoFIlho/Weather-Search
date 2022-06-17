@@ -12,7 +12,7 @@ function App() {
 
   const [place, setPlace] = useState('Rio de Janeiro')
   const [placeInfo, setPlaceInfo] = useState({})
-
+  
 
 
   useEffect(() => {
@@ -22,7 +22,8 @@ function App() {
 
 
   const handleFetch = () => {
-    fetch(`https://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_API_KEY}=${place}&aqi=no`)
+    fetch(`http://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_API_KEY}&q=${place}&aqi=no
+    `)
       .then(response => response.json())
       .then(data => setPlaceInfo({
         name: data.location.name,
